@@ -18368,7 +18368,7 @@ PP:function PP(a,b){this.a=a
 this.b=b},
 a2O(a,b){var s=0,r=A.N(t.W),q,p,o,n,m,l,k,j
 var $async$a2O=A.I(function(c,d){if(c===1)return A.K(d,r)
-while(true)switch(s){case 0:l=A.ed("https://api.weather.gov/points/"+A.j(a)+","+A.j(b))
+while(true)switch(s){case 0:l=A.ed("https://api.weather.gov/points/"+B.d.T(a,4)+","+B.d.T(b,4))
 k=t.N
 s=3
 return A.R(A.abW(l,A.ar(["User-Agent",u.H,"Accept","application/ld+json"],k,k)),$async$a2O)
@@ -55769,7 +55769,7 @@ var $async$$1=A.I(function(b,c){if(b===1)return A.K(c,r)
 while(true)switch(s){case 0:l=q.a
 l.a=a
 s=2
-return A.R(A.a2O(43.6967,-84.3056).kA(new A.K_()),$async$$1)
+return A.R(A.a2O(a.a,a.b).kA(new A.K_()),$async$$1)
 case 2:p=c
 o=p.a
 l.b=o
