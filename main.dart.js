@@ -63188,7 +63188,7 @@ A.Ce.prototype={
 P(a){var s,r,q,p,o=null,n=A.afp(a,t.Tz),m=A.au(a),l=m.p1,k=m.ax,j=k.c,i=l.d.a0k(j,B.dF),h=l.z.o9(j),g=new A.ca(Date.now(),0,!1),f=g.ga5v(),e=g.ga5w(),d=A.ap7("00")
 j=A.cw("City Name",o,o,o,B.bC,o,o,!1,o,i,B.aL,o,o,o,o)
 l=n.a
-l=l==null?o:B.c.R(l.a,4)+"\xb0, "+B.c.R(n.a.b,4)+"\xb0}"
+l=l==null?o:B.c.R(l.a,4)+"\xb0, "+B.c.R(n.a.b,4)+"\xb0"
 s=l==null?"null":l
 r=h.r
 q=r==null?14:r
